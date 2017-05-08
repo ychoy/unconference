@@ -1,4 +1,4 @@
-class Api:Ifttt::V1::StatusController < ActionController::Base
+class Api:Ifttt::V1::StatusController < ActionController
   before_action :return_errors_unless_valid_channel_key
 
   def status

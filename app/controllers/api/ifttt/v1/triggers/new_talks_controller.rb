@@ -25,23 +25,14 @@ class Ifttt::V1::Triggers:NewTalkController < ApplicationController
 		return {
   		"data": [
     		{
-      	"title": "Street Graphics",
-      	"speaker_name": "Banksy",
-      	"posted_at": "2013-11-04T09:23:00-07:00"
-      	"meta": {
-        	"id": "14b9-1fd2-acaa-5df5",
-        	"timestamp": 1383597267
-      	}
+      	  "title": "Street Graphics",
+      	  "speaker_name": "Banksy",
+      	  "posted_at": "2013-11-04T09:23:00-07:00",
+      	  "meta": {
+        	  "id": "14b9-1fd2-acaa-5df5",
+        	  "timestamp": 1383597267
+      	  }
     		},
-   		 {
-      	"title": "Zine Comics",
-      	"speaker_name": "Tilda",
-      	"posted_at": "2013-11-04T03:23:00-07:00"
-      	"meta": {
-        	"id": "ffb27-a63e-18e0-18ad",
-        	"timestamp": 1383596355
-      	}
-    		}
  	 		]
 		}
 	end

@@ -1,4 +1,4 @@
-class Api::Ifttt::V1::Triggers:NewTalkController < ApplicationController
+class Api::Ifttt::V1::Triggers::NewTalkController < ApplicationController
 #  def index
 #    render json: { data: events.map {|e| to_json(e) } }
 #  end

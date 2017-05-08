@@ -1,0 +1,2 @@
+class Unconference < ApplicationRecord
+end

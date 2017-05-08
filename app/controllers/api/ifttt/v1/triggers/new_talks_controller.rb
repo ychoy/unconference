@@ -20,7 +20,7 @@ class Ifttt::V1::Triggers:NewTalkController < ApplicationController
 #    }
 #  end
 
-  def to_json(@talk)
+  def new_talks_created
 
 		return {
   		"data": [

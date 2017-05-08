@@ -1,24 +1,15 @@
-# README
+# Unconference API
+Users can add, edit, update and delete talks and associated unconferences.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## API Endpoints
+*Deployed on Heroku with endpoints at [https://unconf.herokuapp.com/api/unconferences](https://unconf.herokuapp.com/api/unconferences) and [https://unconf.herokuapp.com/api/talks](https://unconf.herokuapp.com/api/talks).
 
-Things you may want to cover:
+## Technologies
+- Rails 5
+- jbuilder gem
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Deployment instructions
+1. ``` git clone https://github.com/ychoy/unconference.git ```
+2. ``` bundle ```
+3. ``` rails db:create db:migrate db:seed ```
+4. ``` rails s ```

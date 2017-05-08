@@ -1,15 +1,17 @@
-class TalksController < ApplicationController
+class Api::TalksController < ApplicationController
   before_action :set_talk, only: [:show, :update, :destroy]
 
   # GET /talks
   # GET /talks.json
   def index
     @talks = Talk.all
+    render json: @talks
   end
 
   # GET /talks/1
   # GET /talks/1.json
   def show
+    render json: @talk
   end
 
   # POST /talks

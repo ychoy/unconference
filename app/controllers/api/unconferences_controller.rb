@@ -1,16 +1,16 @@
-class UnconferencesController < ApplicationController
+class Api::UnconferencesController < ApplicationController
   before_action :set_unconference, only: [:show, :update, :destroy]
 
   # GET /unconferences
   def index
     @unconferences = Unconference.all
 
-    #render json: @#unconferences
+    render json: @unconferences
   end
 
   # GET /unconferences/1
   def show
-    #render json: @#unconference
+    render json: @unconference
   end
 
   # POST /unconferences

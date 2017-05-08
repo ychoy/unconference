@@ -1,4 +1,4 @@
-class Api::Ifttt::V1::Actions::CreatedNewTalkController < AppicationController
+class Api::Ifttt::V1::Actions::CreatedNewTalkController < ApplicationController
   before_action :return_errors_unless_valid_channel_key
   before_action :return_errors_unless_valid_action_fields, only: :created_new_talk
 
